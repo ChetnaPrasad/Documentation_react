@@ -1,0 +1,67 @@
+.signupcontainer {
+    background-color: antiquewhite;
+    height: 70vh; 
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10vh;
+}
+.input-group {
+    margin-bottom: 5vh;
+  }
+  .input-group label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    margin-right: 20vh;
+  }
+.input-group input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 5px;
+    width: 50vh;
+  }
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .input-field{
+    margin-top: 10px;
+    margin-right: 20vh;
+  }
+  .submit-btn{
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #2fb05a;
+    border-radius: 4px;
+    margin-left: 2vh;
+    width: 50vh;
+    background-color: rgb(21, 214, 95);
+}
+.passwordIcon{
+    width: 1rem;
+    height: 1rem;
+    margin-top: -5vh;
+}
+.passwordIconsection{
+    margin-top: -18px;
+    margin-left: 48vh;
+    position: absolute;
+    /* right: 10px; */
+    /* top: 50%; */
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.password-icon-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  

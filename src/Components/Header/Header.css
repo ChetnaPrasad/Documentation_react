@@ -1,0 +1,51 @@
+.headerContainer{
+    /* background-color:#2C2E3A; */
+    height: 10rem;
+    width: 10rem;
+}
+.verticallist{
+    list-style-type: horizental;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    
+}
+.verticallist li{
+    display: inline-block;
+    margin-right: 20px;
+    /* color: aliceblue; */
+    font-size: 18px;
+}
+.verticallist li{
+    /* background-color: blue; */
+    /* font-style: ; */
+    /* color: rgb(79, 79, 100); */
+}
+.verticallist a:hover{
+    color: rgb(65, 10, 186);
+    text-decoration: none;
+}
+.verticallist a {
+    text-decoration: underline; 
+    color:white; 
+  }
+.alignmentcontainer{
+    margin-left: 80rem;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.menuImageContainer{
+    text-align: center;
+    margin-top: -30px;
+}
+.menuImageContainer img {
+    width: 100%; 
+    max-width: 50px; 
+    height: auto;
+
+  }
+/* .verticallist li{
+    color: aliceblue;
+} */
