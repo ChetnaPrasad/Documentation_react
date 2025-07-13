@@ -129,11 +129,6 @@ export default function SignUp() {
           </div>
           {error.confirmPassword && <span className="error-message">{error.confirmPassword}</span>}
         </div>
-        {/* only add for practic */}
-        <p>
-          my name is megha
-        </p>
-
         <button onClick={handleClick} type="submit" className="submit-btn">
           Sign Up
         </button>
